@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23A8343819B55AB24C689BC4 /* Pods_ScrollerGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD28F9BD4ACD16EADCDB294 /* Pods_ScrollerGame.framework */; };
+		DD2B275F1CF67F0100A13E16 /* logo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DD2B275E1CF67F0100A13E16 /* logo.atlas */; };
+		DD5AEB1A1CF7554A0030BC23 /* rainbowRoad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEB191CF7554A0030BC23 /* rainbowRoad.mp3 */; };
+		DD5AEB1C1CF76DC60030BC23 /* topGear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEB1B1CF76DC60030BC23 /* topGear.mp3 */; };
+		DD5AEB1E1CF7773F0030BC23 /* fezMenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEB1D1CF7773F0030BC23 /* fezMenu.mp3 */; };
+		DD5AEB201CF77B410030BC23 /* braveheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5AEB1F1CF77B410030BC23 /* braveheart.mp3 */; };
 		DD8A65891CF3802B002CC1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A65881CF3802B002CC1A3 /* AppDelegate.swift */; };
 		DD8A658B1CF3802B002CC1A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DD8A658A1CF3802B002CC1A3 /* GameScene.sks */; };
 		DD8A658D1CF3802B002CC1A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A658C1CF3802B002CC1A3 /* GameScene.swift */; };
@@ -16,6 +22,12 @@
 		DD8A65971CF3802B002CC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8A65951CF3802B002CC1A3 /* LaunchScreen.storyboard */; };
 		DD8A65A21CF3802B002CC1A3 /* ScrollerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A65A11CF3802B002CC1A3 /* ScrollerGameTests.swift */; };
 		DD8A65AD1CF3802B002CC1A3 /* ScrollerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A65AC1CF3802B002CC1A3 /* ScrollerGameUITests.swift */; };
+		DDA19DE11CF7A03E00167861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA19DE01CF7A03E00167861 /* GoogleService-Info.plist */; };
+		DDC2E5881CF4C3690047AC5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2E5871CF4C3690047AC5A /* AVFoundation.framework */; };
+		DDC2E58C1CF4D0BF0047AC5A /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E58B1CF4D0BF0047AC5A /* explode.wav */; };
+		DDC2E58F1CF4D47A0047AC5A /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E58D1CF4D47A0047AC5A /* SparkParticle.sks */; };
+		DDC2E5901CF4D47A0047AC5A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC2E58E1CF4D47A0047AC5A /* spark.png */; };
+		DDF563F51CF56AF6007B741F /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDF563F41CF56AF6007B741F /* bgmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304386C2953946ABF64A2E20 /* Pods-ScrollerGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollerGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollerGame/Pods-ScrollerGame.debug.xcconfig"; sourceTree = "<group>"; };
+		6DD28F9BD4ACD16EADCDB294 /* Pods_ScrollerGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollerGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2B275E1CF67F0100A13E16 /* logo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = logo.atlas; sourceTree = "<group>"; };
+		DD5AEB191CF7554A0030BC23 /* rainbowRoad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainbowRoad.mp3; sourceTree = "<group>"; };
+		DD5AEB1B1CF76DC60030BC23 /* topGear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = topGear.mp3; sourceTree = "<group>"; };
+		DD5AEB1D1CF7773F0030BC23 /* fezMenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fezMenu.mp3; sourceTree = "<group>"; };
+		DD5AEB1F1CF77B410030BC23 /* braveheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = braveheart.mp3; sourceTree = "<group>"; };
 		DD8A65851CF3802B002CC1A3 /* ScrollerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8A65881CF3802B002CC1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8A658A1CF3802B002CC1A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +70,13 @@
 		DD8A65A81CF3802B002CC1A3 /* ScrollerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8A65AC1CF3802B002CC1A3 /* ScrollerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerGameUITests.swift; sourceTree = "<group>"; };
 		DD8A65AE1CF3802B002CC1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA19DE01CF7A03E00167861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDC2E5871CF4C3690047AC5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDC2E58B1CF4D0BF0047AC5A /* explode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explode.wav; sourceTree = "<group>"; };
+		DDC2E58D1CF4D47A0047AC5A /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
+		DDC2E58E1CF4D47A0047AC5A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DDF563F41CF56AF6007B741F /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		FA7FD6488032E0D95DFC40BD /* Pods-ScrollerGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollerGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollerGame/Pods-ScrollerGame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC2E5881CF4C3690047AC5A /* AVFoundation.framework in Frameworks */,
+				23A8343819B55AB24C689BC4 /* Pods_ScrollerGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +106,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057BBCB204DE42C95C5894B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				304386C2953946ABF64A2E20 /* Pods-ScrollerGame.debug.xcconfig */,
+				FA7FD6488032E0D95DFC40BD /* Pods-ScrollerGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B271C552B751EFD605CD54EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DD28F9BD4ACD16EADCDB294 /* Pods_ScrollerGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD8A657C1CF3802B002CC1A3 = {
 			isa = PBXGroup;
 			children = (
+				DDC2E5871CF4C3690047AC5A /* AVFoundation.framework */,
 				DD8A65871CF3802B002CC1A3 /* ScrollerGame */,
 				DD8A65A01CF3802B002CC1A3 /* ScrollerGameTests */,
 				DD8A65AB1CF3802B002CC1A3 /* ScrollerGameUITests */,
 				DD8A65861CF3802B002CC1A3 /* Products */,
+				057BBCB204DE42C95C5894B3 /* Pods */,
+				B271C552B751EFD605CD54EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +149,24 @@
 		DD8A65871CF3802B002CC1A3 /* ScrollerGame */ = {
 			isa = PBXGroup;
 			children = (
+				DD2B275E1CF67F0100A13E16 /* logo.atlas */,
 				DD8A65881CF3802B002CC1A3 /* AppDelegate.swift */,
 				DD8A658A1CF3802B002CC1A3 /* GameScene.sks */,
 				DD8A658C1CF3802B002CC1A3 /* GameScene.swift */,
 				DD8A658E1CF3802B002CC1A3 /* GameViewController.swift */,
 				DD8A65901CF3802B002CC1A3 /* Main.storyboard */,
+				DDF563F41CF56AF6007B741F /* bgmusic.mp3 */,
+				DD5AEB191CF7554A0030BC23 /* rainbowRoad.mp3 */,
+				DD5AEB1B1CF76DC60030BC23 /* topGear.mp3 */,
+				DD5AEB1F1CF77B410030BC23 /* braveheart.mp3 */,
+				DD5AEB1D1CF7773F0030BC23 /* fezMenu.mp3 */,
+				DDC2E58B1CF4D0BF0047AC5A /* explode.wav */,
 				DD8A65931CF3802B002CC1A3 /* Assets.xcassets */,
 				DD8A65951CF3802B002CC1A3 /* LaunchScreen.storyboard */,
 				DD8A65981CF3802B002CC1A3 /* Info.plist */,
+				DDA19DE01CF7A03E00167861 /* GoogleService-Info.plist */,
+				DDC2E58D1CF4D47A0047AC5A /* SparkParticle.sks */,
+				DDC2E58E1CF4D47A0047AC5A /* spark.png */,
 			);
 			path = ScrollerGame;
 			sourceTree = "<group>";
@@ -138,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD8A65B11CF3802B002CC1A3 /* Build configuration list for PBXNativeTarget "ScrollerGame" */;
 			buildPhases = (
+				291F1B8A69D54D7BB6F58A10 /* 📦 Check Pods Manifest.lock */,
 				DD8A65811CF3802B002CC1A3 /* Sources */,
 				DD8A65821CF3802B002CC1A3 /* Frameworks */,
 				DD8A65831CF3802B002CC1A3 /* Resources */,
+				87736563CA8E5DAF59FC8707 /* 📦 Embed Pods Frameworks */,
+				8EAEA8BB491ADCB613A12A5A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +260,7 @@
 				TargetAttributes = {
 					DD8A65841CF3802B002CC1A3 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J2KEMH58KJ;
 					};
 					DD8A659C1CF3802B002CC1A3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -235,10 +297,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC2E58F1CF4D47A0047AC5A /* SparkParticle.sks in Resources */,
 				DD8A658B1CF3802B002CC1A3 /* GameScene.sks in Resources */,
 				DD8A65971CF3802B002CC1A3 /* LaunchScreen.storyboard in Resources */,
+				DDF563F51CF56AF6007B741F /* bgmusic.mp3 in Resources */,
 				DD8A65941CF3802B002CC1A3 /* Assets.xcassets in Resources */,
+				DDC2E5901CF4D47A0047AC5A /* spark.png in Resources */,
+				DDC2E58C1CF4D0BF0047AC5A /* explode.wav in Resources */,
+				DD5AEB1C1CF76DC60030BC23 /* topGear.mp3 in Resources */,
+				DD5AEB1A1CF7554A0030BC23 /* rainbowRoad.mp3 in Resources */,
 				DD8A65921CF3802B002CC1A3 /* Main.storyboard in Resources */,
+				DD2B275F1CF67F0100A13E16 /* logo.atlas in Resources */,
+				DD5AEB1E1CF7773F0030BC23 /* fezMenu.mp3 in Resources */,
+				DD5AEB201CF77B410030BC23 /* braveheart.mp3 in Resources */,
+				DDA19DE11CF7A03E00167861 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +329,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291F1B8A69D54D7BB6F58A10 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87736563CA8E5DAF59FC8707 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollerGame/Pods-ScrollerGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAEA8BB491ADCB613A12A5A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollerGame/Pods-ScrollerGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD8A65811CF3802B002CC1A3 /* Sources */ = {
@@ -407,8 +527,10 @@
 		};
 		DD8A65B21CF3802B002CC1A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304386C2953946ABF64A2E20 /* Pods-ScrollerGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollerGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkutuyev.ScrollerGame;
@@ -418,8 +540,10 @@
 		};
 		DD8A65B31CF3802B002CC1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7FD6488032E0D95DFC40BD /* Pods-ScrollerGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollerGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vkutuyev.ScrollerGame;
@@ -494,6 +618,7 @@
 				DD8A65B31CF3802B002CC1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8A65B41CF3802B002CC1A3 /* Build configuration list for PBXNativeTarget "ScrollerGameTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +627,7 @@
 				DD8A65B61CF3802B002CC1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8A65B71CF3802B002CC1A3 /* Build configuration list for PBXNativeTarget "ScrollerGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +636,7 @@
 				DD8A65B91CF3802B002CC1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

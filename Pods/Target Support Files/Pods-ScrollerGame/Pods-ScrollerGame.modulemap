@@ -1,0 +1,6 @@
+framework module Pods_ScrollerGame {
+  umbrella header "Pods-ScrollerGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

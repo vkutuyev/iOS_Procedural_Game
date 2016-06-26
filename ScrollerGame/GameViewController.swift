@@ -11,14 +11,16 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
+    @IBOutlet weak var ScoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if let scene = GameScene(fileNamed:"GameScene") {
             // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
-            skView.showsNodeCount = true
+//            skView.showsNodeCount = true
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
